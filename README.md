@@ -31,11 +31,31 @@ Program na wejściu będzie otrzymywał w kolejnych liniach 6 liczb na linię, g
 
 Efekt powinien być nałożony tylko wtedy jak dane wejściowe posiadają poprawne wartości. Linie, które posiadają niepoprawne wartości są pomijane:
 
-```
-x∈{0,…,15}
-y∈{0,…,15}
-dx∈{x,…,15}
-dy∈{y,…,15}
-e∈{0,…,6}
-d∈{0,…,1}
-```
+x ∈ {0,…,15}
+y ∈ {0,…,15}
+dx ∈ {x,…,15}
+dy ∈ {y,…,15}
+e ∈ {0,…,6}
+d ∈ {0,…,1}
+
+W programie powinny znajdować się 2 obiekty plansz, które mają wielkość _16x16_
+
+Poniżej zestaw przykładowych wejść i wyjść z programu. Przykładowe wejście:
+```6 6 10 10 1 1```
+Oczekiwane wyjście:
+```0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000001111100000
+0000001111100000
+0000001111100000
+0000001111100000
+0000001111100000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000```
