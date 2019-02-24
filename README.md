@@ -30,7 +30,7 @@ Efekty będą identyfikowane za pomocą unikalnego kodu:
 Program na wejściu będzie otrzymywał w kolejnych liniach 6 liczb na linię, gdzie pierwsze 4 _(x, y, dx, dy)_ będą definiowały obszar na plaszy, na którą ma zostać nałożony efekt, piąta _e_ liczba bedzie oznaczała kod efektu, a ostatnia _d_ liczba numer planszy. Na wyjściu powinien pojawić się stan z ostatnio przetworzonej planszy.
 
 Efekt powinien być nałożony tylko wtedy jak dane wejściowe posiadają poprawne wartości. Linie, które posiadają niepoprawne wartości są pomijane:
-```Java
+```Python
 x ∈ {0,…,15}
 y ∈ {0,…,15}
 dx ∈ {x,…,15}
