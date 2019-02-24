@@ -41,10 +41,13 @@ d ∈ {0,…,1}
 W programie powinny znajdować się 2 obiekty plansz, które mają wielkość _16x16_
 
 Poniżej zestaw przykładowych wejść i wyjść z programu. Przykładowe wejście:
-```6 6 10 10 1 1
 ```
+6 6 10 10 1 1
+```
+
 Oczekiwane wyjście:
-```0000000000000000
+```
+0000000000000000
 0000000000000000
 0000000000000000
 0000000000000000
@@ -61,14 +64,18 @@ Oczekiwane wyjście:
 0000000000000000
 0000000000000000
 ```
+
 Przykładowe wejście:
-```8 8 8 14 1 0
+```
+8 8 8 14 1 0
 0 4 4 8 1 1
 0 0 15 15 5 0
 0 0 15 15 5 1
 ```
+
 Oczekiwane wyjście:
-```0000111110000000
+```
+0000111110000000
 0000111110000000
 0000111110000000
 0000111110000000
